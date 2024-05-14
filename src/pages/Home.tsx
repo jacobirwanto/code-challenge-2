@@ -1,6 +1,4 @@
-import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
-import Overview from "../components/Overview";
+import { Navbar, Hero, Overview, ProductOverview } from "../components";
 
 function Home() {
   return (
@@ -8,6 +6,7 @@ function Home() {
       <Navbar />
       <Hero />
       <Overview />
+      <ProductOverview />
     </div>
   );
 }
