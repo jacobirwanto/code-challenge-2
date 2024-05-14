@@ -14,7 +14,7 @@ function OurTeam() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="mt-2">
+            <div className="mt-2 text-white">
               <p className="text-lg font-semibold">{member.name}</p>
               <p className="text-sm">{member.position}</p>
             </div>

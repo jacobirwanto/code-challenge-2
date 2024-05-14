@@ -2,7 +2,7 @@ import overviewItem from "../utils/OverviewItem";
 
 function Overview() {
   return (
-    <div className="px-10 lg:px-36 py-8 text-white bg-gray-950">
+    <div className="px-10 lg:px-36 py-8 text-gray-300 bg-gray-950">
       {overviewItem.map((item, index) => (
         <div
           key={index}
@@ -11,7 +11,9 @@ function Overview() {
           }`}
         >
           <div className="flex flex-col justify-center">
-            <h2 className="text-2xl font-bold mb-2">{item.title}</h2>
+            <h2 className="text-2xl font-bold mb-2 text-blue-500">
+              {item.title}
+            </h2>
             <p className="text-xs lg:text-lg">{item.description}</p>
           </div>
           <img
