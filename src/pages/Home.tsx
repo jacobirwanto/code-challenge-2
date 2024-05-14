@@ -5,8 +5,8 @@ import {
   ProductOverview,
   OurTeam,
   Footer,
+  Testimonials,
 } from "../components";
-import Testimonials from "../components/Testimonials";
 
 function Home() {
   return (
