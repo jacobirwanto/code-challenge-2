@@ -13,7 +13,7 @@ function ProductOverview() {
         />
       </div>
       <div className="col-span-1 lg:col-span-1 flex flex-col justify-center">
-        <ul className="list-outside pl-4 lg:space-y-10 text-sm lg:text-2xl text-gray-300">
+        <ul className="list-outside pl-4 lg:space-y-10 text-sm lg:text-2xl text-gray-300 font-bold">
           <li>GPU Development</li>
           <li>Advanced Manufacturing</li>
           <li>Industry Partners</li>
