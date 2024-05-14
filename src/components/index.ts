@@ -5,3 +5,4 @@ export { default as ProductOverview } from "./ProductOverview";
 export { default as OurTeam } from "./OurTeam";
 export { default as Testimonials } from "./Testimonials";
 export { default as Footer } from "./Footer";
+export { default as ProductList } from "./ProductList";
