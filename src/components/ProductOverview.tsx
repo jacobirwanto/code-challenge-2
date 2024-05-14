@@ -2,7 +2,7 @@ import imgproduct from "../assets/overviewimg4.jpg";
 
 function ProductOverview() {
   return (
-    <div className="py-8 px-6 lg:px-24 grid grid-cols-1 lg:grid-cols-3 gap-4 text-white bg-gray-950">
+    <div className="py-8 px-6 lg:px-24 grid grid-cols-1 lg:grid-cols-3 gap-4 text-gray-100 bg-gray-950">
       <div className="col-span-2 lg:col-span-2">
         <h2 className="text-lg lg:text-7xl font-semibold mb-8">What We Do?</h2>
         <img

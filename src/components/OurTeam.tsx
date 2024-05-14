@@ -2,7 +2,7 @@ import teamMembers from "../utils/TeamMembers";
 
 function OurTeam() {
   return (
-    <div className="py-8 px-4 lg:px-24 text-center text-gray-300 bg-gray-950">
+    <div className="py-8 px-4 lg:px-24 text-center text-gray-100 bg-gray-950">
       <h2 className="text-3xl font-bold mb-16">Our Team</h2>
       <div className="flex flex-wrap justify-center">
         {teamMembers.map((member, index) => (
