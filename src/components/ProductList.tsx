@@ -5,13 +5,13 @@ function ProductList() {
     <div className="relative">
       <div className="absolute inset-0 bg-black opacity-80"></div>
       <div className="absolute inset-0 flex flex-col justify-center items-center px-8 text-white">
-        <h1 className="text-3xl lg:text-5xl font-bold mb-4 font-maximus">
+        <h1 className="text-xl lg:text-5xl font-bold mb-4 font-maximus">
           #1 Best-Selling GPU
         </h1>
-        <p className="text-sm mb-4">
+        <p className="text-xs lg:text-sm lg:mb-4">
           Discover SNSV's Next-Generation GPU Technology
         </p>
-        <p className="text-lg mb-4 italic">
+        <p className="text-xs lg:text-lg lg:mb-4 italic">
           Gaming GPUs | Professional GPUs | Data Center GPUs
         </p>
       </div>
