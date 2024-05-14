@@ -7,7 +7,7 @@ function Hero() {
       <div className="absolute inset-0 bg-black opacity-70"></div>
 
       <div className="absolute inset-0 flex flex-col justify-center items-start px-8 text-white">
-        <h1 className="text-3xl font-bold mb-4 font-maximus">
+        <h1 className="text-3xl lg:text-5xl font-bold mb-4 font-maximus">
           SNSVTeK Computer Inc.
         </h1>
         <p className="text-lg mb-4">World-Leading GPU Manufacturer</p>

@@ -10,7 +10,7 @@ function Footer() {
   };
 
   return (
-    <footer className="bg-gray-900 text-white py-4  px-16 lg:px-24">
+    <footer className="bg-gray-900 text-white pb-8 pt-4  px-16 lg:px-24">
       <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-between">
         <div className="flex flex-col items-center mb-4 lg:mb-0 lg:items-start">
           <a href="/">
@@ -21,13 +21,13 @@ function Footer() {
           </p>
         </div>
         <div className="flex items-center space-x-4 mb-4 lg:mb-0">
-          <a href="https://www.facebook.com">
+          <a href="https://www.facebook.com/ASUS">
             <FaFacebook size={25} />
           </a>
-          <a href="https://www.twitter.com">
+          <a href="https://twitter.com/ASUS">
             <FaTwitter size={25} />
           </a>
-          <a href="https://www.instagram.com">
+          <a href="https://www.instagram.com/asus/">
             <FaInstagram size={25} />
           </a>
         </div>
