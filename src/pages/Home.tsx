@@ -1,4 +1,10 @@
-import { Navbar, Hero, Overview, ProductOverview } from "../components";
+import {
+  Navbar,
+  Hero,
+  Overview,
+  ProductOverview,
+  OurTeam,
+} from "../components";
 
 function Home() {
   return (
@@ -7,6 +13,7 @@ function Home() {
       <Hero />
       <Overview />
       <ProductOverview />
+      <OurTeam />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import overviewItem from "../utils/OverviewItem";
 
 function Overview() {
   return (
-    <div className="px-10 py-8 text-white bg-gray-950">
+    <div className="px-10 lg:px-36 py-8 text-white bg-gray-950">
       {overviewItem.map((item, index) => (
         <div
           key={index}
