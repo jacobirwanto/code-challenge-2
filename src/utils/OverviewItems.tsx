@@ -2,7 +2,7 @@ import img1 from "../assets/overviewimg1.jpg";
 import img2 from "../assets/overviewimg2.jpg";
 import img3 from "../assets/overviewimg3.jpg";
 
-const overviewItem = [
+const overviewItems = [
   {
     title: "Rapid Expansion",
     description:
@@ -26,4 +26,4 @@ const overviewItem = [
   },
 ];
 
-export default overviewItem;
+export default overviewItems;

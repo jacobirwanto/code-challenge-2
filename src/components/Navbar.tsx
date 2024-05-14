@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Logo from "../assets/logo.svg";
 import { RxHamburgerMenu } from "react-icons/rx";
-import navItems from "../utils/NavItem";
+import navItems from "../utils/NavItems";
 import { Link } from "react-router-dom";
 
 function Navbar() {

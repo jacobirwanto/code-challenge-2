@@ -5,6 +5,7 @@ import {
   ProductOverview,
   OurTeam,
 } from "../components";
+import Testimonials from "../components/Testimonials";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Overview />
       <ProductOverview />
       <OurTeam />
+      <Testimonials />
     </div>
   );
 }

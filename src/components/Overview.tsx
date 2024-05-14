@@ -1,9 +1,9 @@
-import overviewItem from "../utils/OverviewItem";
+import overviewItems from "../utils/OverviewItems";
 
 function Overview() {
   return (
     <div className="px-10 lg:px-36 py-8 text-gray-300 bg-gray-950">
-      {overviewItem.map((item, index) => (
+      {overviewItems.map((item, index) => (
         <div
           key={index}
           className={`grid grid-cols-1 gap-4 pb-4 lg:pb-0 lg:grid-cols-2 ${
