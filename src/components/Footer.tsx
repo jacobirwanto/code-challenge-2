@@ -16,6 +16,8 @@ function Footer() {
           <a href="/">
             <img src={Logo} alt="SNSV Logo" className="w-16 h-16" />
           </a>
+          <p className="text-xs mt-2">Phone: +88 88888</p>
+          <p className="text-xs mt-2">Address: The Other Way, Earth</p>
           <p className="text-xs mt-2">
             &copy; {new Date().getFullYear()} SNSV. All rights reserved.
           </p>

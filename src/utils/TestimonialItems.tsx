@@ -1,7 +1,7 @@
 import companyimg1 from "../assets/company1.png";
 import companyimg2 from "../assets/company2.png";
 import companyimg3 from "../assets/company3.png";
-import companyimg4 from "../assets/company4.svg";
+import companyimg4 from "../assets/company4.png";
 import companyimg5 from "../assets/company5.png";
 import companyimg6 from "../assets/company6.png";
 
