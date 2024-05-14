@@ -70,7 +70,7 @@ const professionalGPUs = [
   },
   {
     id: 2,
-    name: "SNSV LowProDesign G-Force XTX™ 4060",
+    name: "SNSV LowDesign G-Force XTX™ 4060",
     description:
       "Big productivity in a compact design, offering exceptional performance and efficiency",
     price: "$349",
