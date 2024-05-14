@@ -30,8 +30,7 @@ const testimonial = [
       name: "AWS",
       logo: companyimg3,
     },
-    review:
-      "\"SNSV's GPUs have revolutionized our data processing capabilities.",
+    review: "SNSV's GPUs have revolutionized our data processing capabilities.",
   },
   {
     id: 4,

@@ -4,6 +4,7 @@ import {
   Overview,
   ProductOverview,
   OurTeam,
+  Footer,
 } from "../components";
 import Testimonials from "../components/Testimonials";
 
@@ -16,6 +17,7 @@ function Home() {
       <ProductOverview />
       <OurTeam />
       <Testimonials />
+      <Footer />
     </div>
   );
 }
