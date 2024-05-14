@@ -2,7 +2,7 @@ import { Footer, Navbar } from "../components";
 
 function Team() {
   return (
-    <div>
+    <div className="lg:animate-fadeIn">
       <Navbar />
       <Footer />
     </div>

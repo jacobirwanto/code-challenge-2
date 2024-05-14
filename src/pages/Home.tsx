@@ -10,7 +10,7 @@ import {
 
 function Home() {
   return (
-    <div>
+    <div className="lg:animate-fadeIn">
       <Navbar />
       <Hero />
       <Overview />

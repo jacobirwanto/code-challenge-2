@@ -1,9 +1,10 @@
-import Navbar from "../components/Navbar";
+import { Footer, Navbar } from "../components";
 
 function About() {
   return (
-    <div>
+    <div className="lg:animate-fadeIn">
       <Navbar />
+      <Footer />
     </div>
   );
 }

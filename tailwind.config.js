@@ -3,8 +3,17 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+      },
       fontFamily: {
         maximus: ["Maximus"],
+      },
+      animation: {
+        fadeIn: "fadeIn 0.4s ease-in-out",
       },
     },
   },
