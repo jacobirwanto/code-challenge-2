@@ -34,7 +34,10 @@ function Navbar() {
               key={index}
               className="p-1 hover:bg-gray-600 hover:rounded-lg lg:hover:bg-transparent"
             >
-              <Link to={item.path} className={isActivePage(item.path)}>
+              <Link
+                to={item.path}
+                className={`hover:text-blue-500 ${isActivePage(item.path)}`}
+              >
                 {item.label}
               </Link>
             </li>
