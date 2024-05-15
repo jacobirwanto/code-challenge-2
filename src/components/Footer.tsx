@@ -34,7 +34,7 @@ function Footer() {
           </a>
         </div>
         <button
-          className="btn-anim bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full focus:outline-none flex items-center"
+          className="btn-anim bg-blue-600 hover:bg-blue-600 text-white px-4 py-2 rounded-full focus:outline-none flex items-center"
           onClick={handleBackToTop}
         >
           <FaArrowUp className="mr-2" />

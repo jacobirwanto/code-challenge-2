@@ -1,4 +1,4 @@
-import { AboutPage, Footer, Navbar } from "../components";
+import { AboutPage, Footer, Navbar, OurTeam } from "../components";
 
 function About() {
   return (
