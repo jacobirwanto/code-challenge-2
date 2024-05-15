@@ -1,4 +1,4 @@
-import imgproduct from "../assets/overviewimg4.jpg";
+import heroImg3 from "../assets/overviewimg4.jpg";
 
 function ProductOverview() {
   return (
@@ -6,7 +6,7 @@ function ProductOverview() {
       <div className="col-span-2 lg:col-span-2">
         <h2 className="text-lg lg:text-7xl font-semibold mb-8">What We Do?</h2>
         <img
-          src={imgproduct}
+          src={heroImg3}
           alt="Product Image"
           className="w-full h-auto lg:w-auto lg:h-auto"
           loading="lazy"

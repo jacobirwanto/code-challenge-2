@@ -1,9 +1,10 @@
-import { Footer, Navbar } from "../components";
+import { AboutPage, Footer, Navbar } from "../components";
 
 function About() {
   return (
     <div>
       <Navbar />
+      <AboutPage />
       <Footer />
     </div>
   );

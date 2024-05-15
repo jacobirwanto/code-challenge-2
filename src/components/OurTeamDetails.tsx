@@ -35,7 +35,7 @@ function OurTeamDetails() {
         <img src={heroImg4} alt="company banner" className="w-full h-auto" />
       </div>
 
-      <div className="p-8 lg:px-36">
+      <div className="p-4 lg:p-8 lg:px-36">
         {mergedTeamMembers.map((member, index) => (
           <div
             key={index}

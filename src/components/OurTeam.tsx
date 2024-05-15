@@ -18,7 +18,10 @@ function OurTeam() {
       <h2 className="text-3xl font-bold mb-16">Our Team</h2>
       <div className="flex flex-wrap justify-center">
         {mergedTeamMembers.map((member, index) => (
-          <div key={index} className="flex flex-col items-center mb-8 lg:mr-8">
+          <div
+            key={index}
+            className="flex flex-col items-center p-2 mb-8 lg:mr-8"
+          >
             <div className="w-20 h-20 lg:w-32 lg:h-32 rounded-full overflow-hidden">
               <img
                 src={member.picture}
