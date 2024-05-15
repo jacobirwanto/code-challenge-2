@@ -8,3 +8,6 @@ export { default as Footer } from "./Footer";
 export { default as ProductList } from "./ProductList";
 export { default as OurTeamDetails } from "./OurTeamDetails";
 export { default as AboutPage } from "./AboutPage";
+export { default as History } from "./HistoryAbout";
+export { default as VisionMission } from "./VisionMission";
+export { default as Statistic } from "./Statistic";

@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
 import heroImg2 from "../assets/hero2.png";
-import milestones from "../assets/milestones.svg";
 
 function AboutPage() {
   return (
@@ -17,7 +15,6 @@ function AboutPage() {
         </div>
         <img src={heroImg2} alt="company banner" className="w-full h-auto" />
       </div>
-      <img src={milestones} alt="company-milestones" />
     </div>
   );
 }
