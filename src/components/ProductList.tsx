@@ -1,8 +1,30 @@
+import { CgClose } from "react-icons/cg";
+import { MdCloseFullscreen } from "react-icons/md";
+import { AiOutlineClose } from "react-icons/ai";
+import React, { useState } from "react";
 import heroImg2 from "../assets/hero2.jpg";
 import ProductCard from "./ProductCard";
 import GpuItems from "../utils/GpuItems";
 
-function ProductList() {
+interface GPU {
+  id: number;
+  name: string;
+  description: string;
+  price: string;
+  image: string;
+}
+
+const ProductList: React.FC = () => {
+  const [selectedGPU, setSelectedGPU] = useState<GPU | null>(null);
+
+  const handleViewDetails = (gpu: GPU) => {
+    setSelectedGPU(gpu);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedGPU(null);
+  };
+
   return (
     <div className="bg-gray-950 px-2 lg:px-14">
       <div className="relative">
@@ -27,7 +49,11 @@ function ProductList() {
         </h2>
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
           {GpuItems.gamingGPUs.map((gpu) => (
-            <ProductCard key={gpu.id} gpu={gpu} />
+            <ProductCard
+              key={gpu.id}
+              gpu={gpu}
+              onViewDetails={() => handleViewDetails(gpu)}
+            />
           ))}
         </div>
       </section>
@@ -37,7 +63,11 @@ function ProductList() {
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
           {GpuItems.professionalGPUs.map((gpu) => (
-            <ProductCard key={gpu.id} gpu={gpu} />
+            <ProductCard
+              key={gpu.id}
+              gpu={gpu}
+              onViewDetails={() => handleViewDetails(gpu)}
+            />
           ))}
         </div>
       </section>
@@ -47,12 +77,42 @@ function ProductList() {
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
           {GpuItems.dataCenterGPUs.map((gpu) => (
-            <ProductCard key={gpu.id} gpu={gpu} />
+            <ProductCard
+              key={gpu.id}
+              gpu={gpu}
+              onViewDetails={() => handleViewDetails(gpu)}
+            />
           ))}
         </div>
       </section>
+
+      {selectedGPU && (
+        <div className="px-8 fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 z-50">
+          <div className="bg-gray-600 p-8 max-w-md rounded-lg shadow-lg">
+            <h2 className="text-gray-300 text-xl font-semibold mb-4">
+              {selectedGPU.name}
+            </h2>
+            <p className="text-gray-300 text-sm mb-4">
+              {selectedGPU.description}
+            </p>
+            <p className="text-gray-300 text-lg font-semibold mb-4">
+              {selectedGPU.price}
+            </p>
+            <img
+              src={selectedGPU.image}
+              alt={selectedGPU.name}
+              className="w-full h-40 object-contain object-center mb-4"
+            />
+            <CgClose
+              size={25}
+              className="btn-anim hover:scale-150 text-white"
+              onClick={handleCloseModal}
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
-}
+};
 
 export default ProductList;

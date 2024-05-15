@@ -6,9 +6,10 @@ interface ProductCardProps {
     price: string;
     image: string;
   };
+  onViewDetails: () => void;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ gpu }) => {
+const ProductCard: React.FC<ProductCardProps> = ({ gpu, onViewDetails }) => {
   return (
     <div className="bg-gray-900 shadow-lg rounded-lg overflow-hidden">
       <img
@@ -22,7 +23,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ gpu }) => {
           {gpu.description}
         </p>
         <p className="text-gray-300 text-lg font-semibold mb-2">{gpu.price}</p>
-        <button className="btn-anim bg-blue-500 hover:bg-blue-600 text-gray-100 text-xs py-2 px-2 rounded-full focus:outline-none">
+        <button
+          onClick={onViewDetails}
+          className="btn-anim bg-blue-500 hover:bg-blue-600 text-gray-100 text-xs py-2 px-2 rounded-full focus:outline-none"
+        >
           View Details
         </button>
       </div>

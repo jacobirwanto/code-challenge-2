@@ -2,7 +2,7 @@ import { Footer, Navbar, ProductList, Testimonials } from "../components";
 
 function Products() {
   return (
-    <div className="lg:animate-fadeIn">
+    <div>
       <Navbar />
       <ProductList />
       <Testimonials />
