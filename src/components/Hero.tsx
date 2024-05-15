@@ -1,4 +1,4 @@
-import heroImg from "../assets/hero.png";
+import heroImg1 from "../assets/hero1.png";
 import { Link } from "react-router-dom";
 
 function Hero() {
@@ -19,7 +19,7 @@ function Hero() {
         </Link>
       </div>
 
-      <img src={heroImg} alt="company banner" className="w-full h-auto" />
+      <img src={heroImg1} alt="company banner" className="w-full h-auto" />
     </div>
   );
 }

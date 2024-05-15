@@ -1,6 +1,6 @@
 import { CgClose } from "react-icons/cg";
 import React, { useState } from "react";
-import heroImg2 from "../assets/hero2.jpg";
+import heroImg3 from "../assets/hero3.jpg";
 import ProductCard from "./ProductCard";
 import GpuItems from "../utils/GpuItems";
 
@@ -38,7 +38,7 @@ const ProductList: React.FC = () => {
             Gaming GPUs | Professional GPUs | Data Center GPUs
           </p>
         </div>
-        <img src={heroImg2} alt="company banner" className="w-full h-auto" />
+        <img src={heroImg3} alt="company banner" className="w-full h-auto" />
       </div>
 
       <section className="py-8 mb-12">
