@@ -1,6 +1,4 @@
 import { CgClose } from "react-icons/cg";
-import { MdCloseFullscreen } from "react-icons/md";
-import { AiOutlineClose } from "react-icons/ai";
 import React, { useState } from "react";
 import heroImg2 from "../assets/hero2.jpg";
 import ProductCard from "./ProductCard";
@@ -29,7 +27,7 @@ const ProductList: React.FC = () => {
     <div className="bg-gray-950 px-2 lg:px-14">
       <div className="relative">
         <div className="absolute inset-0 bg-black opacity-80"></div>
-        <div className="absolute inset-0 flex flex-col justify-center items-center px-8 text-white">
+        <div className="absolute inset-0 flex flex-col justify-center items-center px-4 lg:px-8 text-white">
           <h1 className="text-xl lg:text-5xl font-bold mb-4 font-maximus">
             #1 Best-Selling GPU
           </h1>
