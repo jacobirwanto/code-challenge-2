@@ -11,7 +11,7 @@ interface TeamMember {
 }
 
 function useTeam() {
-  const roles = ["COO", "CMO", "CEO", "CTO", "CFO"];
+  const roles = ["CEO", "CTO", "COO", "CMO", "CFO"];
   const [teamMembers, setTeamMembers] = useState<TeamMember[]>([]);
 
   useEffect(() => {
