@@ -1,5 +1,5 @@
 import { CgClose } from "react-icons/cg";
-import React, { useState } from "react";
+import { useState } from "react";
 import heroImg3 from "../assets/hero3.jpg";
 import ProductCard from "./ProductCard";
 import GpuItems from "../utils/GpuItems";
@@ -12,7 +12,7 @@ interface GPU {
   image: string;
 }
 
-const ProductList: React.FC = () => {
+function ProductList() {
   const [selectedGPU, setSelectedGPU] = useState<GPU | null>(null);
 
   const handleViewDetails = (gpu: GPU) => {
@@ -111,6 +111,6 @@ const ProductList: React.FC = () => {
       )}
     </div>
   );
-};
+}
 
 export default ProductList;

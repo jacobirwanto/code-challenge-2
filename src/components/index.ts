@@ -6,3 +6,5 @@ export { default as OurTeam } from "./OurTeam";
 export { default as Testimonials } from "./Testimonials";
 export { default as Footer } from "./Footer";
 export { default as ProductList } from "./ProductList";
+export { default as OurTeamDetails } from "./OurTeamDetails";
+export { default as AboutPage } from "./AboutPage";
