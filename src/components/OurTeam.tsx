@@ -14,8 +14,10 @@ function OurTeam() {
   );
 
   return (
-    <div className="py-8 px-4 lg:px-24 text-center text-gray-200 bg-gray-950">
-      <h2 className="text-3xl font-bold mb-16">Our Team</h2>
+    <div className="py-8 px-4 lg:px-24 text-center text-gray-300 bg-gray-950">
+      <h2 className="text-gray-300 text-center text-2xl lg:text-4xl font-bold mb-12">
+        Our Team
+      </h2>
       <div className="flex flex-wrap justify-center">
         {mergedTeamMembers.map((member, index) => (
           <div

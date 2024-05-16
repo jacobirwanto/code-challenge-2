@@ -1,4 +1,11 @@
-import { AboutPage, Footer, Navbar, VisionMission } from "../components";
+import {
+  AboutPage,
+  Footer,
+  Navbar,
+  OurTeam,
+  Statistic,
+  VisionMission,
+} from "../components";
 import HistoryAbout from "../components/HistoryAbout";
 
 function About() {
@@ -8,6 +15,8 @@ function About() {
       <AboutPage />
       <HistoryAbout />
       <VisionMission />
+      <OurTeam />
+      <Statistic />
       <Footer />
     </div>
   );

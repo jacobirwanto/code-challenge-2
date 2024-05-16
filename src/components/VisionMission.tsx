@@ -2,7 +2,7 @@ import visionMission from "../utils/VisionMisionItems";
 
 function VisionMission() {
   return (
-    <div className="bg-gray-950 py-8 px-4 lg:px-36">
+    <div className="bg-gray-950 py-4 px-4 lg:px-36">
       <div className="max-w-4xl mx-auto">
         {visionMission.map((item, index) => (
           <div key={index} className="mb-8">

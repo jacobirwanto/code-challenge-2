@@ -30,7 +30,7 @@ const Card: React.FC<{ testimonial: Testimonial }> = ({ testimonial }) => {
 function Testimonials() {
   return (
     <div className="px-8 lg:px-24 pb-8 lg:py-8 bg-gray-950">
-      <h2 className="text-3xl font-bold py-8 text-center text-gray-200">
+      <h2 className="text-3xl font-bold py-8 text-center text-gray-300">
         What they say about SNSV?
       </h2>
       <div className="overflow-x-auto">
